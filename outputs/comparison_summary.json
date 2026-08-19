@@ -1,0 +1,47 @@
+{
+  "classical": {
+    "model": "RandomForestClassifier",
+    "accuracy": 0.9714285714285714,
+    "precision": 1.0,
+    "recall": 0.8888888888888888,
+    "f1_score": 0.9411764705882353,
+    "roc_auc": 0.99667616334283,
+    "confusion_matrix": [
+      [
+        78,
+        0
+      ],
+      [
+        3,
+        24
+      ]
+    ],
+    "train_time_sec": 0.3438,
+    "inference_time_sec": 0.0434,
+    "n_train": 245,
+    "n_test": 105
+  },
+  "quantum": {
+    "model": "QSVC (Quantum Kernel SVM, ZZFeatureMap, 3 qubits)",
+    "accuracy": 0.8666666666666667,
+    "precision": 0.7142857142857143,
+    "recall": 0.7142857142857143,
+    "f1_score": 0.7142857142857143,
+    "roc_auc": 0.9316770186335405,
+    "confusion_matrix": [
+      [
+        21,
+        2
+      ],
+      [
+        2,
+        5
+      ]
+    ],
+    "train_time_sec": 11.9181,
+    "inference_time_sec": 13.2884,
+    "n_train": 60,
+    "n_test": 30,
+    "n_qubits": 3
+  }
+}
